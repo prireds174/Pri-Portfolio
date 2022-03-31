@@ -5,10 +5,9 @@ html {
 body {
   margin: 0;
   font-family: 300 11px/1.4 'Montserrat', 'sans-serif';
-  color: rgb(89, 74, 65);
+  color: rgb(90, 76, 67);
   background: rgb(240, 233, 225);
   overflow: hidden;
   display: block;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
