@@ -1,4 +1,4 @@
-import './index.scss'
+import './logo.scss'
 import { useEffect, useRef } from 'react'
 
 import LogoP from '../../../assets/images/P-logo.png'

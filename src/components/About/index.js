@@ -3,13 +3,13 @@ import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@forta
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
+import './about.scss'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
-        return setTimeout(() => {
+        setTimeout(async() => {
           setLetterClass('text-animate-hover')
         }, 3000)
       }, [])

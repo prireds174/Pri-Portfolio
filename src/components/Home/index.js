@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import LogoTitle from '../../assets/images/P-logo.png'
+import Loader from 'react-loaders'
 
 
-import './index.scss';
+import './home.scss';
 
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
     const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '' ]
 
     useEffect(() => {
-        return setTimeout(() => {
+        setTimeout(() => {
           setLetterClass('text-animate-hover')
         }, 4000)
       }, [])
@@ -51,6 +52,7 @@ const Home = () => {
             </div>
            <Logo />
           </div>
+          <Loader type="ball-scale-ripple-multiple" />
     
         </>
       )

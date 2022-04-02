@@ -24,6 +24,8 @@
 }
 
 .container {
+    padding: 10px;
+    padding-left: 60px;
     width: 100%;
     will-change: contents;
     height: 90%;
@@ -38,9 +40,11 @@
     animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
     .text-zone{
         position: absolute;
+        margin: 15px;
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
@@ -108,4 +112,17 @@
             color: #8772b1;
         }
     }
+}
+
+@media (max-width: 400px)  {
+    .about-page,
+    .contact-page {
+    .text-zone{
+    
+        h1 {
+            font-size: 30px;
+        }
+    }
+    
+}
 }
