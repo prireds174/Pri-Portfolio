@@ -9,10 +9,10 @@ const Navigation = () => {
     <a className="navbar-brand" href="#">Navbar</a>
     <ul className="nav nav-pills">
       <li className="nav-item">
-        <a className="nav-link" href="#about">Work</a>
+        <a className="nav-link" href="#work">Work</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#projects">About</a>
+        <a className="nav-link" href="#about">About</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#connect">Connect</a>

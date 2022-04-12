@@ -13,6 +13,7 @@ import Contact from './Contact'
 import './styles/home.scss';
 import Header from './Header'
 import Cube from './Cube'
+import Work from './Work'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -30,12 +31,11 @@ const Home = () => {
         <>
           <div className="container home-page">
           <Header />
-            
-
-              <About />
+            <Work />
+            <About />
               <Cube />
 
-              <Contact />
+            <Contact />
             </div>
           
     
