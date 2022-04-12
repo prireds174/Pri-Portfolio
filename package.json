@@ -12,16 +12,21 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3",
     "dotenv": "^16.0.0",
-    "gsap-trial": "^3.10.0",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gsap-trial": "^3.10.2",
     "loaders.css": "^0.1.2",
     "react": "^18.0.0",
+    "react-bootstrap": "^2.2.3",
     "react-dom": "^18.0.0",
     "react-dotenv": "^0.1.3",
     "react-leaflet": "^3.2.5",
     "react-loaders": "^3.0.1",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.7",
     "sass": "^1.49.9",
     "web-vitals": "^2.1.4"
   },
@@ -48,11 +53,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-
-},
-
-"react-dotenv": {
-  "whitelist": ["REACT_APP_USER_ID"]
-}
-
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "REACT_APP_USER_ID"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
 }

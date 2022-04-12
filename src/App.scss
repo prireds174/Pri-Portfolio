@@ -4,6 +4,7 @@ $primary-color: #49423f;
 @import 'loaders.css/src/animations/line-scale-random.scss';
 @import 'loaders.css/src/animations/triangle-skew-spin.scss';
 @import 'loaders.css/src/animations/ball-scale-ripple-multiple.scss';
+@import "~bootstrap/scss/bootstrap";
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -23,16 +24,3 @@ textarea {
   font-family: 'Helvetica Neue';
 }
 
-.loader-active {
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  animation: fadeOut 1s 1s;
-  animation-fill-mode: forwards;
-}
