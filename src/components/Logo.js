@@ -1,8 +1,7 @@
-import './styles/logo.scss'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoP from '../assets/images/P-logo.png'
+
 import Selfie from '../assets/images/profile.jpeg'
 import bootstrap from 'bootstrap'
 
