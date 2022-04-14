@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from './AnimatedLetters'
 import Fade from "react-reveal/Fade"
 import './styles/header.scss'
+import ResumeSE from '../assets/images/ResumeSE.pdf'
 
 const Header = () => {
         const [letterClass, setLetterClass] = useState('text-animate')
@@ -60,6 +61,12 @@ const Header = () => {
             <p>Building things with my digital hands</p>
           </Fade>
           <Fade bottom>
+          <a
+              href={ResumeSE}
+              className="primary-btn resume"
+            >
+              RESUME
+            </a>
             <a
               href={`mailto:${"priscilla.rojas174@gmail.com"
               }`}
