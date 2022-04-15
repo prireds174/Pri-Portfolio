@@ -7,7 +7,7 @@ export const projects = [
       imageSrc:
         "https://i.imgur.com/jwhsJZQ.png",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/prireds174/WhatsCookingGoodLooking",
+      url: "https://polar-garden-31604.herokuapp.com/easypeasy",
     },
     {
       title: "Burger Boss", //Project Title - Add Your Project Title Here
@@ -17,7 +17,7 @@ export const projects = [
       imageSrc:
         "https://i.imgur.com/DBBrsiR.png",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/prireds174/burgerboss",
+      url: "https://bob-burger-boss.herokuapp.com/",
     },
     {
       title: "Smooth Hoperator", //Project Title - Add Your Project Title Here
@@ -27,7 +27,7 @@ export const projects = [
       imageSrc:
         "https://i.imgur.com/AHrGWWN.png",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/prireds174/smooth-hoperator",
+      url: "https://smooth-hoperator.herokuapp.com/",
     },
     
 ]
