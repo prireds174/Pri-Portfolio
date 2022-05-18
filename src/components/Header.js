@@ -58,7 +58,7 @@ const Header = () => {
                      />  
                    </h1>
           <Fade bottom>
-            <p>Building things with my digital hands</p>
+            <p>Eager problem-solver, building digital solutions. Staying curious.</p>
           </Fade>
           <Fade bottom>
           <a
