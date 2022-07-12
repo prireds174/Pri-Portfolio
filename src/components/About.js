@@ -33,7 +33,7 @@ const About = () => {
                             </Fade>
                             <p>I am a driven software engineer with a passion for learning and creating.</p>
                             <br></br>
-                            <p>creating. My experience in customer service can be
+                            <p>My experience in customer service can be
 translated into a passion for solving problems and providing solutions for others. I am meticulous and boldly face new
 intellectual challenges.</p>
                             <br></br>
