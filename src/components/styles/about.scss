@@ -34,11 +34,13 @@
       padding-top: 20px;
       padding-bottom: 10px;
       text-align: center;
+      color: black;
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
     }
     p {
+      color: black;
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
