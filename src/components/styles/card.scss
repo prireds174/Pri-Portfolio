@@ -14,7 +14,7 @@
       font-family: "Open Sans";
       text-align: center;
       padding: 10px;
-      opacity: 0;
+      opacity: .9;
       transition: all 500ms ease-in-out;
       transform: translate(0, 20px);
       cursor: pointer;
@@ -35,12 +35,11 @@
         text-decoration: none;
       }
       &:hover {
-        opacity: 1;
         transform: translate(0, 0px);
         width: 100%;
         height: max-content;
-        background:linear-gradient(217deg, rgba(164,130,190,.9), rgba(255,0,0,0) 70.71%),
-        linear-gradient(127deg, rgba(130, 186, 190, .9), rgba(0,255,0,0) 70.71%),
+        background:linear-gradient(217deg, rgba(130, 186, 190,.9), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(164,130,190, .9), rgba(0,255,0,0) 70.71%),
         linear-gradient(336deg, rgba(190, 134, 130,.9), rgba(0,0,255,0) 70.71%);;
       }
     }
