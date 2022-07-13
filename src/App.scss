@@ -35,7 +35,11 @@ body {
   overflow-x: hidden;
   background-image: url("./assets/images/bubbles.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-attachment: fixed;
+  // background-position: center;
+  background-size: auto;
+
+
 }
 
 .section {
