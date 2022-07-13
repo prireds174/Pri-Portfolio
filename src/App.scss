@@ -34,6 +34,8 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   background-image: url("./assets/images/bubbles.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .section {
