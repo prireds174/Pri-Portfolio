@@ -8,9 +8,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    &:hover {
-      opacity: 0.3
-    }
+    
+  }
+  .card:hover{
+    opacity: 0.3
+  }
+  .card:hover .content{
+    opacity:1
   }
   .content {
     font-family: "Open Sans";
