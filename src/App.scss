@@ -57,6 +57,12 @@ body {
   justify-content: center;
   padding: 10px;
 }
+@media screen and (max-width: 769px) {
+    .container {
+      flex-direction: column;
+
+    }
+  }
 
 .primary-btn {
   margin: 10px;
