@@ -21,6 +21,7 @@ const Work = (props) => {
                   heading={project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
+                  projectLink={project.url}
                 ></Card>
               ))}
             </Fade>

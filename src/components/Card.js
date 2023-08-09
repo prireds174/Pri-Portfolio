@@ -15,14 +15,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       <div className="content">
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          Explore
-        </a>
+        
       </div>
     </div>
   )
